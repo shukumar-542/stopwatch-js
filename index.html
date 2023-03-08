@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background: linear-gradient(to right, rgb(36, 36, 168), rgb(180, 144, 43));
+        }
+        .btn{
+            background-color: rgb(45, 45, 238);
+            border: none;
+            color: white;
+            padding: 20px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+            
+        }
+        #timer{
+            color:white;
+            font-size: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 id="timer">0</h1>
+    <button id="btn-start"  class="btn" onclick="startClock()">Start</button>
+    <button id="btn-stop" class="btn" onclick="stopClock()">Stop</button>
+    <button id="btn-cleat" class="btn" onclick="clearClock()">Clear</button>
+
+    <script src="./index.js"></script>
+</body>
+</html>
